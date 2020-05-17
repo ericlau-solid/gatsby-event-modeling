@@ -5,32 +5,20 @@
 
 ## Prerequisites
 
-[Yarn](https://yarnpkg.com/en/)
-
-Please create a new file `.env.development` and put this env variable
-
-> If you're building locally, you will have to create a new file `.env.production` and put the same env variable
-
-```bash
-API=http://localhost:5000/api
-```
+[Node](https://nodejs.org/en/)
 
 ## Installing
 
 Installing the dependencies
 
 ```bash
-yarn
+npm i
 ```
-
-## Start the REST API
-
-[Documentation](https://github.com/smakosh/not-todo-api)
 
 ## Start the dev server
 
 ```bash
-yarn start
+npm start
 ```
 
 ### Clean the cache
@@ -38,23 +26,27 @@ yarn start
 This removes the `.cache/` & `public/` folders
 
 ```bash
-yarn reset
+npm run reset
 ```
 
 ## Built with
 
 - Gatsby
 - React & GraphQL
-- VSCode
-- Unnamed
+- Webstorm
+- React-JSS
+- material-ui
+- Redux / redux-saga
 - And these useful of JavaScript libraries & Gatsby plugins [package.json](package.json)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Support
-
-If you love this Gatsby template and want to support me, you can do so through my Patreon
-
-[![Support me on Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/smakosh)
+## TODO
+- remove unnamed lib (introduce react-jss)
+- introduce redux lib and replace provider with it (configure gatsby)
+- introduce redux saga
+- introduce axios interceptor to fake axio calls in development (so it becomes a true in memory app)
+- introduce material-ui
+- create ui and layout components
