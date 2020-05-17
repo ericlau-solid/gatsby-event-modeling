@@ -44,9 +44,9 @@ npm run reset
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## TODO
-- remove unnamed lib (introduce react-jss)
 - introduce redux lib and replace provider with it (configure gatsby)
 - introduce redux saga
 - introduce axios interceptor to fake axio calls in development (so it becomes a true in memory app)
 - introduce material-ui
-- create ui and layout components
+- remove unnamed lib (introduce react-jss, refactor layout and ui components)
+- create additional ui and layout components for full semantic / responsive layout
